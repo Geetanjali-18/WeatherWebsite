@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  </script><link rel="stylesheet" href="style.css">
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="weather-side">
+    <div class="weather-gradient"></div>
+    <div class="date-container">
+      <h2 class="date-dayname">Tuesday</h2><span class="date-day">15 Jan 2019</span><i class="location-icon" data-feather="map-pin"></i><span class="location">Paris, FR</span>
+    </div>
+    <div class="weather-container"><img
+        class="icon"
+        src="https://openweathermap.org/img/wn/50d.png"
+        alt=""
+      />
+      <h1 class="weather-temp">29°C</h1>
+      <h3 class="weather-desc">Sunny</h3>
+    </div>
+  </div>
+  <div class="info-side">
+    <div class="today-info-container">
+      <div class="today-info">
+        <div class="precipitation"> <span class="title">PRECIPITATION</span><span class="value prec-val">0 %</span>
+          <div class="clear"></div>
+        </div>
+        <div class="humidity"> <span class="title">HUMIDITY</span><span class="value humi-value">34 %</span>
+          <div class="clear"></div>
+        </div>
+        <div class="wind"> <span class="title">WIND</span><span class="value wind-value">0 km/h</span>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="week-container">
+      <ul class="week-list">
+        <li class="active"><span class="day-name">Fri</span><span class="day-temp day1">29°C</span></li>
+        <li><span class="day-name">Sat</span><span class="day-temp day2">21°C</span></li>
+        <li><span class="day-name">Sun</span><span class="day-temp day3">08°C</span></li>
+        <li><span class="day-name">Mon</span><span class="day-temp day3">19°C</span></li>
+        <div class="clear"></div>
+      </ul>
+    </div>
+    <div class="location-container">
+        <form action="#">
+            <input type="text" placeholder="Search any city..." class="input" />
+            <button type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="javascript.js"></script>
+  
+
+</body>
+</html>
